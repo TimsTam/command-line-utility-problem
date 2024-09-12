@@ -1,3 +1,16 @@
+/*
+This C program implements a simple command-line utility that can do various tasks and operations on the system. 
+Here are some of the commands it is capable of running:
+
+- calculate: Solves a prefix arithmetic expression.
+- time: Displays the local time.
+- path: Displays the working directory.
+- sys: Displays some basic system information.
+- put: Copies specified files into a chosen directory, with an option to overwrite any existing directories.
+- get: Displays the content of a file, 40 lines at a time.
+- quit: Exits the program.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
