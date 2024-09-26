@@ -25,14 +25,14 @@ This C program implements a simple command-line utility that can do various task
 To compile the program, you need to use a C compiler like gcc.
 
 ### Linux/macOS:
-gcc -o utility_program main.c
+gcc -o utility-program Assignment1P1-TiamAdnum.c
 
 ### Windows:
-gcc -o utility_program main.c -D _WIN32
+gcc -o utility-program Assignment1P1-TiamAdnum.c -D _WIN32
 
 ## Usage
 Once compiled, run the command:
-./utility_program
+./utility-program
 
 ## Commands
 1. calculate: Solve a prefix expression.
@@ -54,11 +54,11 @@ sys
 
 5. put: Copy files into a specified directory. Use -f to force overwrite existing directories.
 
-put <folder name> <file name> <file name> -f
+put <folder-name> <file-name> <file-name> -f
 
 6. get: Display the content of a file, 40 lines at a time.
 
-get <file name>
+get <file-name>
 
 7. quit: End the program.
 
